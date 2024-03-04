@@ -7,8 +7,8 @@ const GenderDropdown = () => {
       <label htmlFor="gender" className="label">Gender</label>
       <Field as="select" id="gender" name="gender" className="inputFields">
         <option value="">Select</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
       </Field>
       <ErrorMessage name="gender" component="div" className='text-danger' />
     </div>

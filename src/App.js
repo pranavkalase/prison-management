@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<PrisonForm />} />
             <Route path= "/list" element={<List/>}/>
-            <Route path="/PrisonForm/:id" element={<PrisonForm/>}/>
+            <Route path="/PrisonForm/*" element={<PrisonForm/>}/>
           </Routes>
         </BrowserRouter>
       </Provider>
